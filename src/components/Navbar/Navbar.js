@@ -138,9 +138,9 @@ export default () => {
           <Typography className={classes.title} variant="h6" noWrap>
             Stock Tracker
           </Typography>
-          <Typography style={{ marginLeft: '2%', color: 'red', backgroundColor: 'white', padding: '0.5%'}}>
+          {/* <Typography style={{ marginLeft: '2%', color: 'red', backgroundColor: 'white', padding: '0.5%'}}>
             Note* - due to the limits of the API key, you will likely get an error if you try to load more than 5 stocks
-          </Typography>
+          </Typography> */}
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 17 new notifications" color="inherit">
