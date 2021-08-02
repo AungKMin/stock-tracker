@@ -4,7 +4,6 @@ import { FETCH_ALL, FETCH_ONE, SET_NULLS, SET_SYMBOLS } from '../constants/actio
 const alphaReducer = (state = { priceDatas: [], smaDatas: [], tweetsArray: [], symbols: [] }, action) => { 
     switch (action.type) { 
         case FETCH_ONE: 
-            console.log('tweets', action.tweets);
             return {
                 ...state,
                 priceDatas: state.priceDatas.map( (graph, index) => {

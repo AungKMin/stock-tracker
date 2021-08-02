@@ -13,7 +13,6 @@ export default ({ graphNumber }) => {
     useEffect(() => {
         if (tweetsArray) { 
             setTweets(tweetsArray);
-            console.log(tweetsArray);
         }
     }, [tweetsArray]);
 

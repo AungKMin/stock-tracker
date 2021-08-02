@@ -38,7 +38,6 @@ export default () => {
 
     useEffect(() => {
         if (symbols) {
-            console.log(symbols);
             setNewSymbols(symbols);
         }
     }, [symbols])
