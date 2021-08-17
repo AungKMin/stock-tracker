@@ -2,6 +2,12 @@
 
 Client for Stock Tracker. 
 
+Link to client repository: https://github.com/AungKMin/stock-tracker-client
+
+Link to server repository: https://github.com/AungKMin/stock-tracker-server
+
+Hosted here: https://stock-trackr.netlify.app/
+
 **Used technologies:** *React, React Redux, Axios, Material UI*
 
 ## Description
